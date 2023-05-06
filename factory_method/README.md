@@ -29,8 +29,20 @@ void main() {
 - `Concrete Creator`: This class extends the Creator class and provides an implementation for the factory method, which creates and returns instances of the concrete products based on the input type.
 - `ProductType Enum`: The enum is used to represent the different product types in a more type-safe and efficient way.
 
-## Advantages
-- Single Responsibility Principle: Separates the code that creates objects from the code that uses those objects.
-- Open/Closed Principle: New product types can be added without changing the existing client code.
-- Improves code reusability by encapsulating object creation logic into a separate method.
-- Provides a more type-safe and efficient way to handle object creation by using enums instead of strings.
+## Relationship with Other Patterns
+- Many architectures start with the Factory Method (simpler and extensible through subclasses) and evolve towards Abstract Factory, Prototype, or Builder (more flexible, but also more complex).
+- Abstract Factory classes are often implemented using the Factory Method, although they can also be built based on the Prototype.
+- The Factory Method can be used in conjunction with the Iterator pattern to allow collection subclasses to create suitable iterators for themselves.
+- The Prototype pattern does not rely on inheritance but requires a complex initialization operation. On the contrary, the Factory Method is built on inheritance but does not require complex initialization.
+- The Factory Method can be considered a special case of the Template Method pattern. Additionally, the Factory Method is often part of a larger class with Template Methods.
+
+## Pros and Cons
+
+### Pros
+
+- The Factory Method pattern promotes loose coupling between the concrete products and the code that uses them.
+- It allows for easy addition or modification of product types, without affecting the client code.
+- The Factory Method pattern encourages the use of composition over inheritance, which can lead to more flexible and maintainable code.
+
+### Cons
+- The Factory Method pattern can lead to a proliferation of classes, as each concrete product requires a corresponding concrete creator.
