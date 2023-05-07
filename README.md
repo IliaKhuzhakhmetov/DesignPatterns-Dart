@@ -6,6 +6,7 @@ This repository contains implementations of various design patterns in the Dart 
 
 - [Creational Patterns](#creational-patterns)
   - [Factory Method](#factory-method)
+  - [Abstract Factory](#abstract-factory)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
 
