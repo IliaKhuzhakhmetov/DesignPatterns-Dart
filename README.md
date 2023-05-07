@@ -20,6 +20,13 @@ The Factory Method pattern provides an interface for creating objects in a super
 - [Implementation](factory_method/bin/factory_method.dart)
 - [README](factory_method/README.md)
 
+### Absract Factory
+
+The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern is useful when you have multiple sets of related objects that you want to create and manage together.
+
+- [Implementation](absract_factory/bin/absract_factory.dart)
+- [README](absract_factory/README.md)
+
 ## Structural Patterns
 
 Structural patterns are concerned with the composition of classes and objects.
