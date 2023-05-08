@@ -6,6 +6,8 @@ This repository contains implementations of various design patterns in the Dart 
 
 - [Creational Patterns](#creational-patterns)
   - [Factory Method](#factory-method)
+  - [Abstract Factory](#abstract-factory)
+  - [Builder](#builder)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
 
@@ -26,6 +28,13 @@ The Abstract Factory pattern provides an interface for creating families of rela
 
 - [Implementation](absract_factory/bin/absract_factory.dart)
 - [README](absract_factory/README.md)
+
+### Builder
+
+The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations. This pattern is useful when you need to build complex objects with various configurations while maintaining the construction process clean and organized.
+
+- [Implementation](builder/bin/builder.dart)
+- [README](builder/README.md)
 
 ## Structural Patterns
 
