@@ -8,6 +8,7 @@ This repository contains implementations of various design patterns in the Dart 
   - [Factory Method](#factory-method)
   - [Abstract Factory](#abstract-factory)
   - [Builder](#builder)
+  - [Prototype](#prototype)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
 
@@ -35,6 +36,13 @@ The Builder pattern separates the construction of a complex object from its repr
 
 - [Implementation](builder/bin/builder.dart)
 - [README](builder/README.md)
+
+### Prototype
+
+The Prototype pattern allows the creation of new objects by cloning existing ones, without depending on their concrete classes. This pattern is useful when object creation is expensive or complicated, and you want to reuse existing instances to save resources and time.
+
+- [Implementation](prototype/bin/prototype.dart)
+- [README](prototype/README.md)
 
 ## Structural Patterns
 
