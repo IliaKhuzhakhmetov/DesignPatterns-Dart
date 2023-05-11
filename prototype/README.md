@@ -106,5 +106,5 @@ In conclusion, if you have a simple object with few properties and need a new in
 - Cloning objects may not be always clear, as it depends on the specific cloning logic.
 
 # Read more
-[Refactoring Guru: Prototype](https://refactoring.guru/design-patterns/prototype)
-[Wikipedia: Prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern)
+- [Refactoring Guru: Prototype](https://refactoring.guru/design-patterns/prototype)
+- [Wikipedia: Prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern)
