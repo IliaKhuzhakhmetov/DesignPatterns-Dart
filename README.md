@@ -9,6 +9,7 @@ This repository contains implementations of various design patterns in the Dart 
   - [Abstract Factory](#abstract-factory)
   - [Builder](#builder)
   - [Prototype](#prototype)
+  - [Singleton](#singleton)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
 
