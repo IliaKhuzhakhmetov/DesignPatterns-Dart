@@ -44,6 +44,13 @@ The Prototype pattern allows the creation of new objects by cloning existing one
 - [Implementation](prototype/bin/prototype.dart)
 - [README](prototype/README.md)
 
+### Singleton
+
+The Singleton pattern ensures that a class has only one instance and provides a global access point to that instance. This pattern is beneficial when the creation of multiple instances is unnecessary or expensive, and you want to manage resources efficiently by reusing the single instance.
+
+- [Implementation](singleton/bin/singleton.dart)
+- [README](singleton/README.md)
+
 ## Structural Patterns
 
 Structural patterns are concerned with the composition of classes and objects.
