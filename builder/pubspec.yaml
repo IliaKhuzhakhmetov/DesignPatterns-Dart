@@ -1,9 +1,0 @@
-name: builder
-description: A simple command-line application about Builder pattern.
-version: 1.0.0
-
-environment:
-  sdk: '>=2.16.1 <3.0.0'
-
-dev_dependencies:
-  lints: ^1.0.0
