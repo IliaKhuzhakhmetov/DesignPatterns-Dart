@@ -11,6 +11,7 @@ This repository contains implementations of various design patterns in the Dart 
   - [Prototype](#prototype)
   - [Singleton](#singleton)
 - [Structural Patterns](#structural-patterns)
+  - [Adapter](#adapter)
 - [Behavioral Patterns](#behavioral-patterns)
 
 ## Creational Patterns
@@ -55,6 +56,13 @@ The Singleton pattern ensures that a class has only one instance and provides a 
 ## Structural Patterns
 
 Structural patterns are concerned with the composition of classes and objects.
+
+### Adapter
+
+The Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to work together. This pattern involves a single class, the adapter, which is responsible for communication between the two different interfaces.
+
+- [Implementation](bin/structural/adapter/singleton.dart)
+- [README](bin/structural/adapter/README.md)
 
 ## Behavioral Patterns
 
