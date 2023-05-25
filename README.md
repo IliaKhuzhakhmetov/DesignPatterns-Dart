@@ -21,36 +21,36 @@ Creational patterns deal with the process of object creation.
 
 The Factory Method pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. This pattern is useful when the creation process of an object is complex or when the same creation process should be shared among multiple related classes.
 
-- [Implementation](factory_method/bin/factory_method.dart)
-- [README](factory_method/README.md)
+- [Implementation](bin/creational/factory_method/factory_method.dart)
+- [README](bin/creational/factory_method/README.md)
 
 ### Absract Factory
 
 The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern is useful when you have multiple sets of related objects that you want to create and manage together.
 
-- [Implementation](absract_factory/bin/absract_factory.dart)
-- [README](abstract_factory/README.md)
+- [Implementation](bin/creational/abstract_factory/abstract_factory.dart)
+- [README](bin/creational/abstract_factory/README.md)
 
 ### Builder
 
 The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations. This pattern is useful when you need to build complex objects with various configurations while maintaining the construction process clean and organized.
 
-- [Implementation](builder/bin/builder.dart)
-- [README](builder/README.md)
+- [Implementation](bin/creational/builder/builder.dart)
+- [README](bin/creational/builder/README.md)
 
 ### Prototype
 
 The Prototype pattern allows the creation of new objects by cloning existing ones, without depending on their concrete classes. This pattern is useful when object creation is expensive or complicated, and you want to reuse existing instances to save resources and time.
 
-- [Implementation](prototype/bin/prototype.dart)
-- [README](prototype/README.md)
+- [Implementation](bin/creational/prototype/prototype.dart)
+- [README](bin/creational/prototype/README.md)
 
 ### Singleton
 
 The Singleton pattern ensures that a class has only one instance and provides a global access point to that instance. This pattern is beneficial when the creation of multiple instances is unnecessary or expensive, and you want to manage resources efficiently by reusing the single instance.
 
-- [Implementation](singleton/bin/singleton.dart)
-- [README](singleton/README.md)
+- [Implementation](bin/creational/singleton/singleton.dart)
+- [README](bin/creational/singleton/README.md)
 
 ## Structural Patterns
 
