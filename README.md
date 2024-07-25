@@ -64,6 +64,13 @@ The Adapter pattern is a structural design pattern that allows objects with inco
 - [Implementation](bin/structural/adapter/singleton.dart)
 - [README](bin/structural/adapter/README.md)
 
+### Bridge
+
+The Bridge pattern is a structural design pattern that decouples an abstraction from its implementation, allowing both to vary independently. This is especially useful when a class can be extended in multiple dimensions, enabling the creation of platform-independent classes and applications.
+
+- [Implementation](bin/structural/bridge/bridge.dart)
+- [README](bin/structural/bridge/README.md)
+
 ## Behavioral Patterns
 
 Behavioral patterns define the ways in which objects interact and communicate with each other.
