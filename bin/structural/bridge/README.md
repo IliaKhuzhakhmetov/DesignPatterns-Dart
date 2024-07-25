@@ -89,5 +89,3 @@ void main() {
 
 - [Refactoring Guru: Bridge](https://refactoring.guru/design-patterns/bridge)
 - [Wikipedia: Bridge pattern](https://en.wikipedia.org/wiki/Bridge_pattern)
-
-This approach ensures that your code is well-organized, allowing for independent development and maintenance of different parts of your system【15†source】【16†source】【17†source】.
