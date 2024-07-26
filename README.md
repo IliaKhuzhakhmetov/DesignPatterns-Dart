@@ -72,6 +72,13 @@ The Bridge pattern is a structural design pattern that decouples an abstraction 
 - [Implementation](bin/structural/bridge/bridge.dart)
 - [README](bin/structural/bridge/README.md)
 
+### Composite
+
+The Composite pattern is a structural design pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. It lets clients treat individual objects and compositions of objects uniformly. This pattern is particularly useful when you need to work with objects that form a tree-like structure, enabling you to perform operations on the entire structure as if it were a single object.
+
+- [Implementation](bin/structural/composite/composite.dart)
+- [README](bin/structural/composite/README.md)
+
 ## Behavioral Patterns
 
 Behavioral patterns define the ways in which objects interact and communicate with each other.
