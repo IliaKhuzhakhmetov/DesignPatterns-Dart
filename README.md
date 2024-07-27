@@ -79,6 +79,13 @@ The Composite pattern is a structural design pattern that allows you to compose 
 - [Implementation](bin/structural/composite/composite.dart)
 - [README](bin/structural/composite/README.md)
 
+### Decorator
+
+The Decorator Pattern is a structural design pattern that allows you to dynamically add behaviors to objects by wrapping them in special wrapper objects called decorators. This pattern provides a flexible alternative to subclassing for extending functionality. 
+
+- [Implementation](bin/structural/decorator/decorator.dart)
+- [README](bin/structural/decorator/README.md)
+
 ## Behavioral Patterns
 
 Behavioral patterns define the ways in which objects interact and communicate with each other.
