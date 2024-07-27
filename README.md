@@ -13,6 +13,8 @@ This repository contains implementations of various design patterns in the Dart 
 - [Structural Patterns](#structural-patterns)
   - [Adapter](#adapter)
   - [Bridge](#bridge)
+  - [Composite](#composite)
+  - [Decorator](#decorator)
 - [Behavioral Patterns](#behavioral-patterns)
 
 ## Creational Patterns
