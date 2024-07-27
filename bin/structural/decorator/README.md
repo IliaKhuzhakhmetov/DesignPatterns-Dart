@@ -35,12 +35,12 @@ Let's break down the key components:
 Let's look at a simplified version of our logging example to illustrate the pattern:
 
 ```dart
-// Component Interface
+// Base Interface for the Logger
 abstract interface class Logger {
   void log(String message);
 }
 
-// Concrete Component
+// Basic Implementation
 class BasicLogger implements Logger {
   @override
   void log(String message) {
@@ -48,7 +48,7 @@ class BasicLogger implements Logger {
   }
 }
 
-// Base Decorator
+// Base class for decorators
 abstract class LoggerDecorator implements Logger {
   final Logger _wrappedLogger;
 
@@ -60,7 +60,7 @@ abstract class LoggerDecorator implements Logger {
   }
 }
 
-// Concrete Decorator
+// Decorator for adding timestamps
 class TimestampDecorator extends LoggerDecorator {
   TimestampDecorator(Logger logger) : super(logger);
 
@@ -68,6 +68,32 @@ class TimestampDecorator extends LoggerDecorator {
   void log(String message) {
     final timestamp = DateTime.now().toIso8601String();
     super.log('$timestamp: $message');
+  }
+}
+
+// Decorator for adding log levels
+class LevelDecorator extends LoggerDecorator {
+  final String level;
+
+  LevelDecorator(Logger logger, this.level) : super(logger);
+
+  @override
+  void log(String message) {
+    super.log('[$level] $message');
+  }
+}
+
+// Decorator for writing to a file
+class FileWriteDecorator extends LoggerDecorator {
+  final String filePath;
+
+  FileWriteDecorator(Logger logger, this.filePath) : super(logger);
+
+  @override
+  void log(String message) {
+    super.log(message);
+    // In a real implementation, we would write to a file here
+    print('Also writing "$message" to $filePath');
   }
 }
 ```
