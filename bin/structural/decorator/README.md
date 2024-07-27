@@ -122,7 +122,8 @@ void main() {
   // Use it again to show caching won't apply here
   decoratedLogger.log('This is another test message');
 
-  // Output: 2024-07-27T15:27:47.876490: [INFO] This is a test message
+  // Output: 
+  // 2024-07-27T15:27:47.876490: [INFO] This is a test message
   // Also writing "This is a test message" to log.txt
   // 2024-07-27T15:27:47.877530: [INFO] This is another test message
   // Also writing "This is another test message" to log.txt
